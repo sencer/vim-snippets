@@ -657,4 +657,19 @@ ${1:doc}
 `!p snip.rv = triple_quotes(snip)`
 endsnippet
 
+snippet leet "Leetcode"
+#!/usr/bin/env python
+#encoding: utf-8
+
+class Solution(object):
+
+	def ${1:soln}(self, ${2:args}):
+		$0
+
+if __name__ == '__main__':
+	soln = Solution()
+	print soln.$1($2)
+
+endsnippet
+
 # vim:ft=snippets:

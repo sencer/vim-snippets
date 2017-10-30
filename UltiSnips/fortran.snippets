@@ -1,0 +1,5 @@
+snippet dbg "add printf for debugging"
+if ( ioerr /= 0 ) then
+	write(*,*) 'Line `!v line('.')-3` ioerr 1'
+end if
+endsnippet

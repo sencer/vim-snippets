@@ -151,4 +151,8 @@ snippet fund "function declaration" b
 ${1:void} ${2:function_name}(${3});
 endsnippet
 
+snippet dbg "add printf for debugging"
+printf("`!v expand('%')`:`!v line('.')`\n"); // dbg
+endsnippet
+
 # vim:ft=snippets:
